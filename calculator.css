@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pictures/pay-937884_1280.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.object {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+    background-color: yellow;
+}
+
+input {
+    padding: 20px;
+    width: 300px;
+    height: 50px;
+    text-align: right;
+    font-size: 40px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.B4 {
+   width: 135px;
+   background-color: wheat;
+}
+
+.B {
+    background-color: wheat;
+}
